@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: mugloar
+
+datasource:
+  default:
+    url: jdbc:tc:mysql:5.7.34:///test
+    driverClassName: org.testcontainers.jdbc.ContainerDatabaseDriver
+    username: test
+    password: test
+    dialect: mysql
+
+
